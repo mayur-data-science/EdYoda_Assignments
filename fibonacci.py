@@ -43,7 +43,26 @@ for iteration in range(0,8):
     previous_number = next_number
     next_number = fib_number
     print(fib_number, end=" ")
-
+print() # ignore, its for 3nd Approach o/p to print in next line.
 # o/p : Fibonacci Series Between 0 to 50 :  0 1 1 2 3 5 8 13 21 34
+
+
+
+# Approach : 3 ( Using formula )
+
+    # Fibonacci formula  = {[(√5 + 1)/2] ^ n} / √5
+
+import math
+
+numerator = (math.sqrt(5) + 1) / 2
+
+print("Fibonacci between 0 to 50 : ", end="")
+
+for numerator_pow_of_n in range(0, 10): # range is for iteration perpose only
+    result = round(pow(numerator, numerator_pow_of_n) / math.sqrt(5)) # Appling formula and rounding of.
+    print(result, end=" ")
+print() # ignore
+
+# o/p : Fibonacci between 0 to 50 : 0 1 1 2 3 5 8 13 21 34 
 
 
