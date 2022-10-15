@@ -13,7 +13,7 @@
 
 # Approach : 1 ( pythonic way )
 
-previous_number, next_number  = 0, 1 # initializing first two number of the Sequence.(tuple unpacking)
+previous_number, next_number  = 1, 1 # initializing first two number of the Sequence.(tuple unpacking)
 
     # By default, the print function ends with a newline
     # end default parameter end=' ' indicates that the end character has to be identified by whitespace and not a newline.
@@ -25,7 +25,7 @@ for iteration in range(0,8): # range() generator only used for iteration purpose
     print(fib_number, end=" ") # if we don't use end here only 1st iteration o/p printed in same line, rest every iteration o/p in new line.
 print() # ignore, its for 2nd Approach o/p to print in next line.
 
-# o/p : Fibonacci Series Between 0 to 50 :  0 1 1 2 3 5 8 13 21 34
+# o/p : Fibonacci Series Between 0 to 50 :  1 1 2 3 5 8 13 21 34 55
 
 
 
@@ -44,7 +44,7 @@ for iteration in range(0,8):
     next_number = fib_number
     print(fib_number, end=" ")
 print() # ignore, its for 3nd Approach o/p to print in next line.
-# o/p : Fibonacci Series Between 0 to 50 :  0 1 1 2 3 5 8 13 21 34
+# o/p : Fibonacci Series Between 0 to 50 :  1 1 2 3 5 8 13 21 34 55
 
 
 
@@ -63,6 +63,6 @@ for numerator_pow_of_n in range(1, 10): # range is for iteration perpose only
     print(result, end=" ")
 print() # ignore
 
-# Fibonacci between 0 to 50 : 1 1 2 3 5 8 13 21 34 
+# o/p : Fibonacci between 0 to 50 : 1 1 2 3 5 8 13 21 34 
 
 
