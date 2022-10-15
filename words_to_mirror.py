@@ -23,7 +23,7 @@ while True:
         break 
 
 # Logic to reverse the string.
-reversed_str = "" # to store charecter from right to left of original string.
+reversed_str = "" # to store charecter (from right to left of original string to left to right in reversed_str).
 
 for string_chr in user_input: # string is iterable
     reversed_str = string_chr + reversed_str # concatinating charecters.
