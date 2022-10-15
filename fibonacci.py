@@ -33,7 +33,7 @@ print() # ignore, its for 2nd Approach o/p to print in next line.
 
 # Approach : 2 (requires more line of code)
 
-previous_number = 0
+previous_number = 1
 next_number = 1
 
 print("Fibonacci Series Between 0 to 50 : ", previous_number, next_number, end=' ')
