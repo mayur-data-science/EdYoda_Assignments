@@ -35,3 +35,42 @@ print("Reversed Word : ",reversed_str)
         # Your word :  EdYoda
         # Reversed Word :  adoYdE
 
+# Approach 2
+
+while True:
+    user_input = input("Enter the word to reverse : ")
+    if (user_input.strip().isdigit() or user_input == ""):
+        print("You entered Nothing OR number as word mistakenly, please enter word only ")
+        continue
+    else:
+        print("Your word : ", user_input)
+        break 
+
+# logic  
+print("Reversed Word : ",user_input[::-1])
+
+    # o/p :
+        # Enter the word to reverse : mayur adhude
+        # Your word :  mayur adhude
+        # Reversed Word :  eduhda ruyam
+
+
+
+# Approach : 3
+
+while True:
+    user_input = input("Enter the word to reverse : ")
+    if (user_input.strip().isdigit() or user_input == ""):
+        print("You entered Nothing OR number as word mistakenly, please enter word only ")
+        continue
+    else:
+        print("Your word : ", user_input)
+        break 
+
+# logic  
+print("Reversed Word : ","".join(reversed(user_input)))
+
+    # o/p : 
+        # Enter the word to reverse : mayur adhude
+        # Your word :  mayur adhude
+        # Reversed Word :  eduhda ruyam
